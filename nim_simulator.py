@@ -127,12 +127,11 @@ def verify_nim_experiment(n_games=10000, max_piles=5, max_size=20):
 
     return accuracy, avg_len
 
-# Run it!
 verify_nim_experiment()
 
 """## Train a simple Neural Network to learn how to play Nim
 
-1. Create our training data
+1. Create training data
 """
 
 import numpy as np
